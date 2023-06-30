@@ -1,4 +1,4 @@
-FROM apache/airflow:2.6.2
+FROM apache/airflow:2.6.1
 
 RUN mkdir -p dags && \
     mkdir -p config && \
